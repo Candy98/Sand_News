@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginBottom="45dp"
+        android:src="@drawable/logo"
+
+
+        ></ImageView>
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/ic_google"
+
+        android:drawableLeft="@drawable/ic_google"
+        android:padding="10dp"
+        android:tag="google_login_button"
+        android:text="Sign up with google"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
+
+
